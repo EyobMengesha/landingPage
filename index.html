@@ -6,33 +6,87 @@
         <title>Ethiopian FPL</title>
         <link rel="stylesheet" href="./styles.css"/>
         <link rel="stylesheet" href="https://fontawesome.com/">
+        <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
     </head>
     <body>
         <main>
-            <section class="heading">
                 <header id="header">
-                   <div class="logo">
-                     <img>
-                     <h1>Ethiopian FPL</h1>
-                   </div>
+                     <img id="header-img" src="https://www.kick442.com/wp-content/uploads/2021/07/IMG-20210707-WA0139.jpg" loading="lazy" alt="Betking logo">
+                     <h1><span class="green">Eth</span><span class="yellow">io F</span><span class="red">PL</span></h1>
+                   
                     <nav id="nav-bar">
-                        <p class="nav-link"><a href="#">Features</a></p>
-                        <p class="nav-link"><a href="#">News</a></p>
-                        <p class="nav-link"><a href="#">Transfer</a></p>
+                        <p ><a class="nav-link" href="#features">Features</a></p>
+                        <p><a href="#news" class="nav-link">News</a></p>
+                        <p><a href="#transfer" class="nav-link">Transfer</a></p>
                     </nav>
 
                 </header>
-            </section>
+            
             <section class="register">
                 <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-                    <caption>Build your own team and become a manager!</caption>
-                    <label>Email: <input type="email" id="email" placeholder="enter your email address" name="user-email" required></label>
+                    <legend>Build your own team and become a manager!</legend>
+                    <label>Email: <input type="email" id="email" placeholder="enter your email address" name="email" required></label>
                     <label>Password: <input id="password" type="password" name="user-password" required></label>
                     <input type="submit" id="submit" value="Register">
                 </form>
             </section>
-
+            <section id="features">
+                <div class="Players">
+                <p><i class="fa-solid fa-futbol"></i></p>
+                    <h1>All Betking Premier league players</h1>
+                    <p>We have picked all registered players from each team with their positions. Players value depends on their perfomance from last season.</p>
+                </div>
+                <div class="deadline">
+                    <i></i>
+                    <h1>Deadline 10mins before match</h1>
+                    <p>We will give you enough time to set make your team stronger after you get lineups and prematch analysis.</p>
+                </div>
+                <div class="bonus">
+                    <i></i>
+                    <h1>Unique bonus system</h1>
+                    <p>Our bonus system is based on player's aggression and fighting spirit during the game. <span class="warning">Note: </span> Cards shown in the game results don't result in deduction of points.</p>
+                </div>
+            </section>
+            <section id="news">
+                <video id="video" controls>
+ <source src="https://www.youtube.com/embed=bw77BEe5EAQ" type="video/mp4"> Video not supported                   
+                </video>
+            </section>
+            <section id="transfer">
+                <div class="player one">
+                    <h3>Gatoch</h3>
+                    <p>St. George</p>
+                    <img src="https://www.playmakerstats.com/img/jogadores/01/427301_ori__20170912100416_gatoch_panom.jpg" alt="Gatoch" loading="lazy">
+                    <p id="price">$8.0</p>
+                     <input type="submit" id="select" value="select"/>
+                </div>
+                <div class="player two">
+                    <h3>Mujib</h3>
+                    <p>Fasil Kenema</p>
+                    <img src="https://i.goalzz.com/?i=sain%2f15073607.jpg" alt="Mujib" loading="lazy">
+                    <p id="price">$11.5</p>
+                     <input type="submit" id="select" value="select"/>
+                </div>
+                <div class="player three">
+                    <h3>Getaneh</h3>
+                    <p>Wolkite Kenema</p>
+                    <img src="https://media.gettyimages.com/photos/getaneh-kebede-of-ethiopia-during-the-2013-african-cup-of-nations-c-picture-id583582284?s=612x612" alt="getaneh">
+                    <p id="price">$9.3</p>
+                    <input type="submit" id="select" value="select"/>
+                </div>
+            </section>
         </main>
+        <footer>
+            <div class="info">
+                <p><a>Privacy</a></p>
+                <p><a>Terms</a></p>
+                <p><a>Contact</a></p>
+            </div>
+            <p>&copy 2022, Ethio FPL </p>
+        </footer>
     </body>
     
 
